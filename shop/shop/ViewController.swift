@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import App
+import Service
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let service = Service()
+        service.add()
     }
-
-
 }
 
