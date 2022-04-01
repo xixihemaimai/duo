@@ -61,6 +61,7 @@
 		044CC03A27F737CB00D4E8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044CC05427F73A8000D4E8D0 /* App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = App.xcodeproj; path = App/App.xcodeproj; sourceTree = "<group>"; };
 		044CC06E27F73ADF00D4E8D0 /* Service.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Service.xcodeproj; path = Service/Service.xcodeproj; sourceTree = "<group>"; };
+		044CC08427F73DFC00D4E8D0 /* shop-bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shop-bridge-header.h"; sourceTree = "<group>"; };
 		3329D879B7A523CE41A00E13 /* Pods-shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shop.debug.xcconfig"; path = "Target Support Files/Pods-shop/Pods-shop.debug.xcconfig"; sourceTree = "<group>"; };
 		4FDCF64C730709C1D14223EF /* Pods-shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shop.release.xcconfig"; path = "Target Support Files/Pods-shop/Pods-shop.release.xcconfig"; sourceTree = "<group>"; };
 		8C8510067510D51997457AAF /* Pods_shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +84,7 @@
 		044CC02027F737B900D4E8D0 = {
 			isa = PBXGroup;
 			children = (
+				044CC08427F73DFC00D4E8D0 /* shop-bridge-header.h */,
 				044CC06E27F73ADF00D4E8D0 /* Service.xcodeproj */,
 				044CC05427F73A8000D4E8D0 /* App.xcodeproj */,
 				044CC02B27F737BA00D4E8D0 /* shop */,
@@ -143,7 +145,6 @@
 				3329D879B7A523CE41A00E13 /* Pods-shop.debug.xcconfig */,
 				4FDCF64C730709C1D14223EF /* Pods-shop.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -459,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Test.shop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/duo/shop/shop-bridge-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,6 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Test.shop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/duo/shop/shop-bridge-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
